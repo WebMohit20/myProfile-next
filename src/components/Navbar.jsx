@@ -37,8 +37,6 @@ const Navbar = () => {
           <a href='#about'>About</a>
           <a href='#skills'>Skills</a>
         </div>
-
-        
       </div>
     </nav>
   );
