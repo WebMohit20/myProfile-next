@@ -1,7 +1,7 @@
 
 import AboutMe from "../components/AboutMe";
 import HeroSection from "../components/HeroSection";
-
+import Experiences from "../components/Experiences";
 
 
 export default function Home() {
@@ -9,6 +9,7 @@ export default function Home() {
     <div>
       <HeroSection/>
       <AboutMe/>
+      <Experiences/>
     </div>
   );
 }
