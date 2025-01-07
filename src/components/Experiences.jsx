@@ -1,24 +1,25 @@
 "use client"
-
+import logo from "../images/acciojob_logo.jpeg"
+import Image from "next/image";
 const Experiences = () => {
     const experiences = [
       {
-        logo: "/simpana-logo.png", 
-        company: "SIMPANA TECHNOLOGY",
+        logo,
+        company: "Accio Job",
         role: "React Developer",
-        duration: "Aug 2020 – May 2022",
+        duration: "June 2024-February 2025"
       },
       {
-        logo: "/vendify-logo.png", 
-        company: "Vendify",
-        role: "Senior Software Engineer",
-        duration: "May 2022 – March 2023",
+        logo, 
+        company: "Accio Job",
+        role: "React Developer",
+        duration: "June 2024-February 2025"
       },
       {
-        logo: "/pace-logo.png", 
-        company: "PACE",
+        logo, 
+        company: "Accio Job",
         role: "React Developer",
-        duration: "March 2023 – Present",
+        duration: "June 2024-February 2025"
       },
     ];
   
@@ -29,7 +30,7 @@ const Experiences = () => {
         <div className="experiences-grid">
           {experiences.map((experience, index) => (
             <div key={index} className="experience-card">
-              <img
+              <Image
                 src={experience.logo}
                 alt={`${experience.company} Logo`}
                 className="experience-logo"

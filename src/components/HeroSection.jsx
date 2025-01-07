@@ -8,7 +8,7 @@ const HeroSection = () => {
   const [passionateText, setPassionateText] = useState(""); // Typing effect state
   const [isTypingComplete, setIsTypingComplete] = useState(false);
   
-  const colors = ["#fce2db", "#fde4cf", "#e9edc9", "#cce3de", "#ffc8dd"];
+  const colors = ["#4484CE", "#1AD7C0", "#FF9B11", "#9B59B6", "#FF7F7F", "#ECF0F1"];
  
   const typingText = "Passionate about changing the world with technology. ";
 
@@ -19,7 +19,7 @@ const HeroSection = () => {
     const interval = setInterval(() => {
       colorIndex = (colorIndex + 1) % colors.length;
       setBackgroundColor(colors[colorIndex]);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(interval); 
   }, [colors]);

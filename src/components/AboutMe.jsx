@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image";
+import picture from "../images/myPicture.jpg"
 
 
 
@@ -10,7 +11,7 @@ const AboutMe = () => {
    
       <div className="image">
         <Image
-          src="/myPicture.jpg"
+          src={picture}
           alt="Profile Picture"
           width={200}
           height={200}

@@ -5,34 +5,38 @@ import Card from "./Card";
 const projectsData = [
     {
       id: 1,
-      title: 'myportfolio',
+      title: 'AlarmApp',
       languages: [
-        { name: 'JavaScript', percentage: '51.5%' },
-        { name: 'SCSS', percentage: '45.3%' },
-        { name: 'HTML', percentage: '3%' }
+        { name: 'JavaScript', percentage: '45.5%' },
+        { name: 'CSS', percentage: '37.3%' },
+        { name: 'HTML', percentage: '17.18%' }
       ],
-      updatedDate: 'January 17, 2024'
+      updatedDate: '2 moths ago'
     },
     {
       id: 2,
-      title: 'create-react-app-lambda',
-      languages: 'code yet to be deployed.',
-      updatedDate: 'December 7, 2023'
+      title: 'CartApp',
+      languages: [
+        { name: 'JavaScript', percentage: '79.3%' },
+        { name: 'CSS', percentage: '3.9%' },
+        { name: 'HTML', percentage: '16.8%' }
+      ],
+      updatedDate: '1 month ago'
     },
     {
       id: 3,
-      title: 'Task-Management',
-      description: 'It is a task management system where all user can track their own tasks with the status of in-progress, pending and completed',
+      title: 'postApp',
+      
       languages: [
-        { name: 'JavaScript', percentage: '78.8%' },
-        { name: 'CSS', percentage: '19%' },
-        { name: 'HTML', percentage: '2.1%' }
+        { name: 'JavaScript', percentage: '63.4%' },
+        { name: 'CSS', percentage: '33%' },
+        { name: 'HTML', percentage: '3.6%' }
       ],
-      updatedDate: 'February 5, 2023'
+      updatedDate: '10 November 2024'
     },
     {
       id: 4,
-      title: 'Mohd-shahid-iqbal',
+      title: 'Mohit-Khemani',
       description: 'Config files for my GitHub profile.',
       languages: 'code yet to be deployed.',
       updatedDate: 'October 27, 2021'
