@@ -45,7 +45,9 @@ const projectsData = [
 
 const Projects = () => {
     return (
-      <div className="projects-container">
+      <div className="projects-container"
+        id="projects"  
+      >
         <h1 className="main-title">Recent Projects</h1>
         <div className="projects-grid">
           {projectsData.map(project => (

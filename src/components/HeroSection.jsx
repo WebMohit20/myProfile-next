@@ -4,15 +4,15 @@ import { useState, useEffect } from "react";
 import { FaGithub, FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const HeroSection = () => {
-  const [backgroundColor, setBackgroundColor] = useState("#fce2db"); // Initial background color
-  const [passionateText, setPassionateText] = useState(""); // Typing effect state
+  const [backgroundColor, setBackgroundColor] = useState("#4484CE"); 
+  const [passionateText, setPassionateText] = useState(""); 
   const [isTypingComplete, setIsTypingComplete] = useState(false);
   
   const colors = ["#4484CE", "#1AD7C0", "#FF9B11", "#9B59B6", "#FF7F7F", "#ECF0F1"];
  
   const typingText = "Passionate about changing the world with technology. ";
 
-  // Change background color every 5 seconds
+ 
 
   useEffect(() => {
     let colorIndex = 0;
@@ -48,6 +48,7 @@ const HeroSection = () => {
   return (
     <div
     className="HeroSection"
+    id="home"
       style={{
         backgroundColor: backgroundColor,
         transition: "background-color 1s ease-in-out"

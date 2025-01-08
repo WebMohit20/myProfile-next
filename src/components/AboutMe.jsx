@@ -7,7 +7,9 @@ import picture from "../images/myPicture.jpg"
 
 const AboutMe = () => {
   return (
-    <div className="AboutMe">
+    <div className="AboutMe" 
+      id="about"
+    >
    
       <div className="image">
         <Image
