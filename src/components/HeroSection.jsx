@@ -66,7 +66,7 @@ const HeroSection = () => {
        
         <div  className="links" >
           <a
-            href="https://github.com"
+            href="https://github.com/WebMohit20"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -89,7 +89,7 @@ const HeroSection = () => {
             <FaInstagram size={40} className="icon" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/mohit-khemani-687621236/"
             target="_blank"
             rel="noopener noreferrer"
           >

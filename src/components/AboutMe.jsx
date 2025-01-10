@@ -31,7 +31,9 @@ const AboutMe = () => {
         </p>
 
 
-        <button className="resume-button">Resume</button>
+        <a className="resume-button" 
+        href="https://drive.google.com/file/d/1a0f7jm0geqO0INx-UFRXh8lnOrK9RGXZ/view"
+        target="_blank">Resume</a>
       </div>
     </div>
   );

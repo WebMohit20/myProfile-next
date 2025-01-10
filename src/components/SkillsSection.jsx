@@ -8,6 +8,7 @@ const SkillsSection = ({ title, skills, isLoading }) => {
         {skills.map((skill, index) => (
           <SkillBar 
             key={index}
+            initial={0}
             name={skill.name}
             level={skill.level}
             isLoading={isLoading}

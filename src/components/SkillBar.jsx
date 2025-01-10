@@ -3,11 +3,7 @@
 import React from "react"
 
 
-
-
-const SkillBar = ({ name, level, isLoading }) => {
-
-
+const SkillBar = ({ initial,name, level, isLoading }) => {
 
     return (
       <div className="skill-item">
@@ -15,7 +11,7 @@ const SkillBar = ({ name, level, isLoading }) => {
         <div className="skill-bar">
           <div 
             className={`skill-progress ${isLoading ? 'loading' : ''}`}
-            style={{ width: `${level}%` }}
+            style={{ width: `${isLoading?initial:level}%` }}
           ></div>
         </div>
       </div>

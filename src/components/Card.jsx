@@ -14,9 +14,13 @@ const Card = ({ project }) => {
                 <FaGithub size={20} className="icon" />
                 Clone Project
             </button>
-            <button className="project-button">
+            <a 
+            className="project-button"
+            href={project.link}
+            target="_blank"
+            >
                 <FaGithub size={20} className="icon" />Repo
-            </button>
+            </a>
         </div>
         
         <div className="languages-container">

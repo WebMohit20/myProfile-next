@@ -6,6 +6,7 @@ const projectsData = [
     {
       id: 1,
       title: 'AlarmApp',
+      link:"https://github.com/WebMohit20/AlarmApp",
       languages: [
         { name: 'JavaScript', percentage: '45.5%' },
         { name: 'CSS', percentage: '37.3%' },
@@ -16,6 +17,7 @@ const projectsData = [
     {
       id: 2,
       title: 'CartApp',
+      link:"https://github.com/WebMohit20/CartApp",
       languages: [
         { name: 'JavaScript', percentage: '79.3%' },
         { name: 'CSS', percentage: '3.9%' },
@@ -26,7 +28,7 @@ const projectsData = [
     {
       id: 3,
       title: 'postApp',
-      
+      link:"https://github.com/WebMohit20/postApp",
       languages: [
         { name: 'JavaScript', percentage: '63.4%' },
         { name: 'CSS', percentage: '33%' },
@@ -37,9 +39,10 @@ const projectsData = [
     {
       id: 4,
       title: 'Mohit-Khemani',
+      link:"https://github.com/WebMohit20/myProfile-next",
       description: 'Config files for my GitHub profile.',
       languages: 'code yet to be deployed.',
-      updatedDate: 'October 27, 2021'
+      updatedDate: '3 days ago'
     }
   ];
 
